@@ -16,7 +16,7 @@ Some useful notes:
 5. declare element={} after path in props...... inside element declare the component to set on that declared path....
 
 
-### dynamic link, and useNavigate Hook
+### dynamic link, and useNavigate  Hook
 
 1. import and declare useNavigate() hook in navigate function
 2. create and add event handler to call the function containing useNavigate() Hook

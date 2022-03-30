@@ -8,6 +8,7 @@ import About from './components/About us/About';
 import Users from './components/Users/Users';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
+import UserDetail from './components/UserDetail/UserDetail';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="about" element={<About />}></Route>
         <Route path="users" element={<Users />}></Route>
+        <Route path="users/:userId" element={<UserDetail />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes >
 
