@@ -27,8 +27,9 @@ const Header = () => {
 
             <nav>
                 <CustomLink to="/">Home</CustomLink>
-                <CustomLink to="users">Users</CustomLink>
-                <CustomLink to="about">About</CustomLink>
+                <CustomLink to="/users">Users</CustomLink>
+                <CustomLink to="/posts">Posts</CustomLink>
+                <CustomLink to="/about">About</CustomLink>
             </nav>
 
         </div>
